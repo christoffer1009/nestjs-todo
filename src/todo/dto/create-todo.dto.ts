@@ -1,7 +1,4 @@
-import { Todo } from "../entities/todo.entity";
-
-export class CreateTodoDto {
-    id: string;
+export class CreateTodoDto {    
     name: string;
     description?: string
 }
